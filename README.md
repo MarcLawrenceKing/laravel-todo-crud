@@ -5,17 +5,15 @@ A simple CRUD app built in Laravel.
 ## Features
 
 - Create, Edit, Delete To-Do items
-- Bootstrap UI
+- Bootstrap UI, Light/Dark Mode
 - Local MySQL database
-
-## Setup
 
 ## Installation
 
 1. **Clone the repository**
    ```bash
    git clone https://github.com/MarcLawrenceKing/laravel-todo-crud.git
-   cd laravel-react
+   cd laravel-todo-crud
    ```
 
 2. **Install PHP dependencies**
@@ -23,17 +21,12 @@ A simple CRUD app built in Laravel.
    composer install
    ```
 
-3. **Install frontend dependencies**
-   ```bash
-   npm install
-   ```
-
-4. **Create environment file**
+3. **Create environment file**
    ```bash
    cp .env.example .env
    ```
 
-5. **Configure `.env`**
+4. **Configure `.env`**
    Update the following lines with your local database credentials:
    ```env
    APP_URL=http://localhost:8000
@@ -46,17 +39,17 @@ A simple CRUD app built in Laravel.
    DB_PASSWORD=your_mysql_password
    ```
 
-6. **Generate application key**
+5. **Generate application key**
    ```bash
    php artisan key:generate
    ```
 
-7. **Run migrations** (to create database based on DB_DATABASE)
+6. **Run migrations** (to create database based on DB_DATABASE)
    ```bash
    php artisan migrate
    ```
 
-8. **Start the development server**
+7. **Start the development server**
    ```bash
    php artisan serve
    ```
