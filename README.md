@@ -7,6 +7,12 @@ A simple CRUD app built in Laravel.
 - Create, Edit, Delete To-Do items
 - Bootstrap UI, Light/Dark Mode
 - Local MySQL database
+  
+## Requirements
+
+- PHP >= 8.1
+- Composer
+- MySQL
 
 ## Installation
 
